@@ -9,7 +9,7 @@ export const apiBaseUrl = 'http://127.0.0.1:5000/'; // 您的本地API地址
 
 
 export default defineConfig({
-
+    base: "/bikaPunchInWeb/",
     server: {
         proxy: {
             "/api": {
