@@ -40,7 +40,7 @@ export default {
   },
   methods: {
     async registerUser() {
-      const apiUrl = '/api/user'; // 将此处替换为您的API主机和端点URL
+      const apiUrl = '/bikaPunchInWeb/api/user'; // 将此处替换为您的API主机和端点URL
 
       axios.post(apiUrl, this.userData, {
         withCredentials: true,  // 启用跨域凭据
